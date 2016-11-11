@@ -22,6 +22,7 @@ find_library(QGLVIEWER_LIBRARY_RELEASE
   NAMES qglviewer-qt4 qglviewer QGLViewer QGLViewer2
   PATHS /usr/lib
         /usr/local/lib
+        /usr/lib/x86_64-linux-gnu # Ubuntu 16.04 and derivatives
         /opt/local/lib
         /sw/lib
         ENV QGLVIEWERROOT
@@ -33,6 +34,7 @@ find_library(QGLVIEWER_LIBRARY_DEBUG
   NAMES dqglviewer dQGLViewer dQGLViewer2 QGLViewerd2
   PATHS /usr/lib
         /usr/local/lib
+        /usr/lib/x86_64-linux-gnu # Ubuntu 16.04 and derivatives
         /opt/local/lib
         /sw/lib
         ENV QGLVIEWERROOT
